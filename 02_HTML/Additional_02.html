@@ -5,40 +5,77 @@
 		<TITLE>Homework 02 - additional 2</TITLE>
 	</HEAD>
 	<BODY>
-		<H3>Таблица - Месяц Дня Рождения</H3>
-		<TABLE align="center" width=“180” border=“1" >
-			<CAPTION align="center">Месяц моего дня рождения</CAPTION>
-			<COL width="30"><COL width="30"><COL width="30"><COL width="30"><COL width="30"><COL width="30">
-			<TR align="center">
-				<TH colspan="6">Июль</TH>
-			</TR>
+		<H2>Горизонтальное меню</H2>
+		<P><A HREF=“page01.html”>Главная</A> |
+			<A HREF=“page02.html”>Каталог</A> |
+			<A HREF=“page03.html”>Акции</A> |
+			<A HREF=“page04.html”>О нас</A></P>
+
+		<H2>Меню список</H2>
+		<ul >
+			<li><a href="page01.html">Главная</a></li>
+			<li><a href="page02.html">Каталог</a></li>
+			<li><a href="page03.html">Акции</a></li>
+			<li><a href="page04.html">О нас</a></li>
+		</ul>
+
+		<H2>Меню с вложенным списком</H2>
+		<ul >
+			<li><a href="page01.html">Главная</a></li>
+				<ul>
+					<li><a href="page01_1.html">Новости</a></li>
+					</ul>
+			<li><a href="page02.html">Каталог</a></li>
+				<ul >
+					<li><a href="page02_1.html">Осень-Зима</a></li>
+					<li><a href="page02_2.html">Весна-Лето</a></li>
+				</ul>
+			<li><a href="page03.html">Акции</a></li>
+				<ul >
+					<li><a href="page03_1.html">Актуальные</a></li>
+					<li><a href="page03_2.html">Прошедшие</a></li>
+				</ul>
+			<li><a href="page04.html">О нас</a></li>
+				<ul >
+					<li><a href="page04_1.html">Контакты</a></li>
+					<li><a href="page04_2.html">Проезд</a></li>
+				</ul>
+		</ul>
+
+		<H1>Меню таблица с вложенными таблицами</H1>
+		<TABLE>
 			<TR>
-				<TD align="center"><STRONG>Пн</STRONG></TD>
-				<TD></TD><TD>5</TD><TD>12</TD><TD>19</TD><TD>26</TD>
-			</TR>
-			<TR>
-				<TD align="center"><STRONG>Вт</STRONG></TD>
-				<TD></TD><TD>6</TD><TD>13</TD><TD>20</TD><TD>27</TD>
-			</TR>
-			<TR>
-				<TD align="center"><STRONG>Ср</STRONG></TD>
-				<TD></TD><TD>7</TD><TD>14</TD><TD>21</TD><TD>28</TD>
-			</TR>
-			<TR>
-				<TD align="center"><STRONG>Чт</STRONG></TD>
-				<TD>1</TD><TD>8</TD><TD>15</TD><TD>22</TD><TD>29</TD>
-			</TR>
-			<TR>
-				<TD align="center"><STRONG>Пт</STRONG></TD>
-				<TD>2</TD><TD>9</TD><TD>16</TD><TD>23</TD><TD>30</TD>
-			</TR>
-			<TR>
-				<TD align="center"><STRONG>Сб</STRONG></TD>
-				<TD>3</TD><TD>10</TD><TD>17</TD><TD>24</TD><TD>31</TD>
-			</TR>
-			<TR>
-				<TD align="center"><STRONG>Вс</STRONG></TD>
-				<TD>4</TD><TD>11</TD><TD>18</TD><TD>25</TD><TD></TD>
+				<TD><a href="page01.html">Главная</a></TD>
+					<TABLE>
+						<TR></TR>
+						<TR>
+							<TD><a href="page01_1.html">Новости</a></TD>
+						</TR>
+					</TABLE>
+				<TD><a href="page02.html">Каталог</a></TD>
+					<TABLE>
+						<TR></TR>
+						<TR>
+							<TD><a href="page02_1.html">Осень-Зима</a></TD>
+							<TD><a href="page02_2.html">Весна-Лето</a></TD>
+						</TR>
+					</TABLE>
+				<TD><a href="page03.html">Акции</a></TD>
+					<TABLE>
+						<TR></TR>
+						<TR>
+							<TD><a href="page03_1.html">Актуальные</a></TD>
+							<TD><a href="page03_2.html">Прошедшие</a></TD>
+						</TR>
+					</TABLE>
+				<TD><a href="page04.html">О нас</a></TD>
+					<TABLE>
+						<TR></TR>
+						<TR>
+							<TD><a href="page04_1.html">Контакты</a></TD>
+							<TD><a href="page04_2.html">Проезд</a></TD>
+						</TR>
+					</TABLE>
 			</TR>
 		</TABLE>
 	</BODY>
